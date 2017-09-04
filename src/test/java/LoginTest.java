@@ -9,6 +9,6 @@ public class LoginTest extends TestBase {
     public void gotoPage() {
         LoginPage page = new LoginPage();
         page.login();
-        Screenshot.capturesScreenshotFile("seleniumFile");
+        Screenshot.capturesScreenshotFile("seleniumFile1");
     }
 }

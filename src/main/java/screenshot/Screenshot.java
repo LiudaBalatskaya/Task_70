@@ -7,7 +7,7 @@ import org.openqa.selenium.TakesScreenshot;
 import java.io.File;
 
 import static com.sun.xml.internal.ws.spi.db.BindingContextFactory.LOGGER;
-import static utilities.Driver.driver;
+import static utilities.DriverSingleton.driver;
 
 public class Screenshot {
 

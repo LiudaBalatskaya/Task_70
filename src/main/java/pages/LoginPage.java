@@ -2,7 +2,7 @@ package pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import utilities.Driver;
+import utilities.DriverSingleton;
 
 public class LoginPage {
 
@@ -15,7 +15,7 @@ public class LoginPage {
     public WebDriver driver;
 
     public LoginPage() {
-        this.driver = Driver.driver;
+        this.driver = DriverSingleton.driver;
     }
 
     public void enterUserName() {
